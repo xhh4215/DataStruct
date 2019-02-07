@@ -3,15 +3,15 @@ package com.company;
 /***
  * 自己定制的动态的数组
  */
-public class Array {
-    private int[] data;
+public class Array<E> {
+    private E[] data;
     private int size;
 
     public Array(int capacity) {
         /**
          * @param  capacity 数据的容量参数
          */
-        data = new int[capacity];
+        data = (E[]) new Object[capacity];
     }
 
     /**
@@ -37,18 +37,18 @@ public class Array {
     }
 
     // 向数组末尾添加一个数据
-    public void addLast(int e) {
+    public void addLast(E e) {
         add(size, e);
 
     }
 
     // 在数组的头位置添加元素
-    public void addFrist(int e) {
+    public void addFrist(E e) {
         add(0, e);
     }
 
     // 向index的位置添加数据
-    public void add(int index, int e) {
+    public void add(int index, E e) {
         if (size == data.length) {
             throw new IllegalArgumentException("add fail Array is full");
 
@@ -63,28 +63,29 @@ public class Array {
     }
 
     // 删除指定位置的元素
-    public int remove(int index) {
+    public E remove(int index) {
         if (index < size || index < 0) {
             throw new IllegalArgumentException("add fail require index >0 and index<size");
         }
-        int ret = data[index];
+        E ret = data[index];
         for (int i = index + 1; i < size; i--) {
             data[i - 1] = data[i];
         }
         size--;
+        data[size] = null;
         return ret;
     }
 
-    public int removeFrist() {
+    public E removeFrist() {
         return remove(0);
     }
 
-    public int removeLast() {
+    public E removeLast() {
         return remove(size - 1);
     }
 
     // 判断是不是存在一个元素 存在的话就删除
-    public void removeElement(int e) {
+    public void removeElement(E e) {
         int index = find(e);
         if (index != -1) {
             remove(index);
@@ -107,17 +108,17 @@ public class Array {
         return res.toString();
     }
 
-    public boolean contains(int e) {
+    public boolean contains(E e) {
         for (int i = 0; i < size; i++) {
-            if (data[i] == e) ;
+            if (data[i] .equals(e)) ;
             return true;
         }
         return false;
     }
 
-    public int find(int e) {
+    public int find(E e) {
         for (int i = 0; i < size; i++) {
-            if (data[i] == e) {
+            if (data[i] .equals(e)) {
                 return i;
             }
         }
@@ -125,7 +126,7 @@ public class Array {
     }
 
     // 设置索引位置的元素
-    public void set(int index, int e) {
+    public void set(int index, E e) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("add fail require index >0 and index<size");
         }
@@ -133,7 +134,7 @@ public class Array {
     }
 
     // 获取索引位置元素
-    public int get(int index) {
+    public E get(int index) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("add fail require index >0 and index<size");
         }
