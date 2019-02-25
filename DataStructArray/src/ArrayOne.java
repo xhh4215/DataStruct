@@ -13,7 +13,7 @@ public class ArrayOne<E> {
      * 初始化数组使用的构造器
      * @param capacity  该参数是说明初始化的数组的大小的一个参数
      */
-    private ArrayOne(int capacity) {
+    public ArrayOne(int capacity) {
         //初始化数组
         data = (E[]) new Object[capacity];
         //初始化标识数组中元素个数的变量
@@ -24,7 +24,7 @@ public class ArrayOne<E> {
     /***
      * 默认创建一个容量为10的数组
      */
-    private ArrayOne() {
+    public ArrayOne() {
         this(10);
     }
 
@@ -97,6 +97,14 @@ public class ArrayOne<E> {
     }
 
     /***
+     * 获取的是数组的容量
+     * @return
+     */
+    public int getCapacity() {
+        return data.length;
+    }
+
+    /***
      * 删除末尾的元素
      * @return
      */
@@ -120,7 +128,7 @@ public class ArrayOne<E> {
             resize(size * 2);
         }
         // 为插入的元素腾位置
-        for (int i = size - 1; i < index; i--) {
+        for (int i = size - 1; i >= index; i--) {
             data[i + 1] = data[i];
 
         }
@@ -222,6 +230,22 @@ public class ArrayOne<E> {
             throw new IllegalArgumentException("add fail require index >0 and index<size");
         }
         return data[index];
+    }
+
+    /***
+     * 返回最后一个元素
+     * @return
+     */
+    public E getLast() {
+        return get(size - 1);
+    }
+
+    /***
+     * 返回第一个元素
+     * @return
+     */
+    public E getFrist() {
+        return get(0);
     }
 }
 
