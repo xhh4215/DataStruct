@@ -72,7 +72,7 @@ public class Array<E> {
 
     // 删除指定位置的元素
     public E remove(int index) {
-        if (index < size || index < 0) {
+        if (index > size || index < 0) {
             throw new IllegalArgumentException("add fail require index >0 and index<size");
         }
         E ret = data[index];
