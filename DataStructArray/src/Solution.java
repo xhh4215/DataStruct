@@ -1,11 +1,10 @@
-import java.util.Stack;
 
 /***
  * 括号是否有效的检测的类
  */
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        ArrayStack<Character> stack = new ArrayStack<>();
         for(int i=0 ;i<s.length();i++){
             char c = s.charAt(i);
              if(c=='('||c=='['|| c=='{')
@@ -28,4 +27,9 @@ class Solution {
         }
         return   stack.isEmpty();
     }
+     public static void main(String[] args){
+        System.out.println(new Solution().isValid("()(){}[]"));
+        System.out.println(new Solution().isValid("()(){}[]]]"));
+
+     }
 }
