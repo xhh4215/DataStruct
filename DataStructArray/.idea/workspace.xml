@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc1c07a-1d89-4c0b-93dc-bb2d93c6373a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/ProjectOne.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
@@ -12,8 +10,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/project-template.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectOne.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -41,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+            <state relative-caret-position="271">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
               <folding>
                 <element signature="docComment;method#ArrayOne#0;class#ArrayOne#0" />
                 <element signature="docComment;method#ArrayOne#1;class#ArrayOne#0" />
@@ -59,8 +55,7 @@
                 <element signature="docComment;method#addFrist#0;class#ArrayOne#0" />
                 <element signature="e#1073#1074#0" expanded="true" />
                 <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="method#remove#0;class#ArrayOne#0" />
-                <element signature="e#1807#1808#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
                 <element signature="docComment;method#add#0;class#ArrayOne#0" />
                 <element signature="docComment;method#resize#0;class#ArrayOne#0" />
                 <element signature="method#resize#0;class#ArrayOne#0" />
@@ -108,18 +103,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="method#isValid#0;class#Solution#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -131,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+            <state relative-caret-position="706">
+              <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
               <folding>
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -171,11 +154,11 @@
         <option value="$PROJECT_DIR$/Androidstudio快捷键的总结" />
         <option value="$PROJECT_DIR$/src/Array.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
-        <option value="$PROJECT_DIR$/src/ArrayOne.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
+        <option value="$PROJECT_DIR$/src/ArrayOne.java" />
         <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
       </list>
     </option>
@@ -214,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551145809015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551439227128" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -272,12 +255,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549536157972</updated>
       <workItem from="1549536162350" duration="1162000" />
-      <workItem from="1550839881447" duration="12949000" />
+      <workItem from="1550839881447" duration="13812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14111000" />
+    <option name="totallyTimeSpent" value="14974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -292,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,7 +283,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3068493" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,39 +324,6 @@
             <element signature="docComment;method#Array#1;class#Array#0" />
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;method#ArrayOne#0;class#ArrayOne#0" />
-            <element signature="docComment;method#ArrayOne#1;class#ArrayOne#0" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="docComment;method#getSize#0;class#ArrayOne#0" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="docComment;method#getData#0;class#ArrayOne#0" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="docComment;method#isEmpty#0;class#ArrayOne#0" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="docComment;method#addLast#0;class#ArrayOne#0" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="docComment;method#addFrist#0;class#ArrayOne#0" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="method#remove#0;class#ArrayOne#0" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="docComment;method#add#0;class#ArrayOne#0" />
-            <element signature="docComment;method#resize#0;class#ArrayOne#0" />
-            <element signature="method#resize#0;class#ArrayOne#0" />
-            <element signature="e#4683#4684#0" expanded="true" />
-            <element signature="e#4719#4720#0" expanded="true" />
-            <element signature="e#4794#4795#0" expanded="true" />
-            <element signature="e#4823#4824#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,10 +385,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="271">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;method#ArrayOne#0;class#ArrayOne#0" />
+            <element signature="docComment;method#ArrayOne#1;class#ArrayOne#0" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="docComment;method#getSize#0;class#ArrayOne#0" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#ArrayOne#0" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#ArrayOne#0" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="docComment;method#addLast#0;class#ArrayOne#0" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="docComment;method#addFrist#0;class#ArrayOne#0" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#ArrayOne#0" />
+            <element signature="docComment;method#resize#0;class#ArrayOne#0" />
+            <element signature="method#resize#0;class#ArrayOne#0" />
+            <element signature="e#4683#4684#0" expanded="true" />
+            <element signature="e#4719#4720#0" expanded="true" />
+            <element signature="e#4794#4795#0" expanded="true" />
+            <element signature="e#4823#4824#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,10 +424,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        <state relative-caret-position="706">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
           <folding>
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
