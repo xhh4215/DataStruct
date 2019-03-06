@@ -4,16 +4,16 @@
  */
 public class ArrayStack<E> implements Stack<E> {
     // 用于动态处理数据的
-    private ArrayOne<E> array;
+    private Array<E> array;
 
     // 创建指定的个数的数据栈
     public ArrayStack(int capacity) {
-        array = new ArrayOne<>(capacity);
+        array = new Array<>(capacity);
     }
 
     //默认的创建数据栈的构造器
     public ArrayStack() {
-        array = new ArrayOne<>();
+        array = new Array<>();
     }
 
     //获取栈中的元素个数

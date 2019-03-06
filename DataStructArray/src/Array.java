@@ -3,7 +3,7 @@
  * author 栾桂明
  * use 对数据结果中的数组进行学习
  */
-public class ArrayOne<E> {
+public class Array<E> {
     //    这是一个记录数组中的元素个数的变量
     private int size;
     //     这是一个存放数据的数组
@@ -13,7 +13,7 @@ public class ArrayOne<E> {
      * 初始化数组使用的构造器
      * @param capacity  该参数是说明初始化的数组的大小的一个参数
      */
-    public ArrayOne(int capacity) {
+    public Array(int capacity) {
         //初始化数组
         data = (E[]) new Object[capacity];
         //初始化标识数组中元素个数的变量
@@ -24,7 +24,7 @@ public class ArrayOne<E> {
     /***
      * 默认创建一个容量为10的数组
      */
-    public ArrayOne() {
+    public Array() {
         this(10);
     }
 
@@ -66,6 +66,29 @@ public class ArrayOne<E> {
      */
     public void addFrist(E e) {
         add(0, e);
+    }
+    /***
+     * 在指定的位置插入一个元素
+     * @param index  插入元素的位置
+     * @param e 要插入的元素
+     */
+    public void add(int index, E e) {
+        // 判断是不是符合插入元素的条件
+        if (index > size || index < 0) {
+            throw new IllegalArgumentException("add fail require index >0 and index<size");
+        }
+        if (size == data.length) {
+            //扩容的操作
+            resize(size * 2);
+        }
+        // 为插入的元素腾位置
+        for (int i = size - 1; i >= index; i--) {
+            data[i + 1] = data[i];
+
+        }
+        // 插入元素
+        data[index] = e;
+        size++;
     }
 
     /***
@@ -115,29 +138,6 @@ public class ArrayOne<E> {
 
     }
 
-    /***
-     * 在指定的位置插入一个元素
-     * @param index  插入元素的位置
-     * @param e 要插入的元素
-     */
-    public void add(int index, E e) {
-        // 判断是不是符合插入元素的条件
-        if (index > size || index < 0) {
-            throw new IllegalArgumentException("add fail require index >0 and index<size");
-        }
-        if (size == data.length) {
-            //扩容的操作
-            resize(size * 2);
-        }
-        // 为插入的元素腾位置
-        for (int i = size - 1; i >= index; i--) {
-            data[i + 1] = data[i];
-
-        }
-        // 插入元素
-        data[index] = e;
-        size++;
-    }
 
     /**
      * 数组进行扩容的方法
